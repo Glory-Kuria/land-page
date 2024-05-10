@@ -28,14 +28,15 @@ body {
 }
 #input{
     background-image: url('images/search.png');
+    margin-top: 40px;
     background-size: 19px;
     background-repeat: no-repeat;
     border-radius: 20px;
     width: 10%;
     font-size: smaller;
-    padding: 2px;
+    padding: 10px;
     
-}
+} 
 #signup{
     border-radius: 20px;
     width: 10%;
@@ -51,6 +52,7 @@ body {
 #learn{
     border-radius: 20px;
     padding-left: 30px;
+    padding: 10px;
 }
 #footer{
     display: flex;
@@ -432,4 +434,4 @@ body {
         height: auto;
     
     } */
-     /* */ */
+     /* */ 
