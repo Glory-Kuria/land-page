@@ -1,16 +1,23 @@
-#border{
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+/* #border{
     background-color: purple;
     height: 90vh;
     padding-top: 6%;
     padding-left: 4%;
-}
+} */
 
 #page{
-    border: solid;
-    width: 95%;
-    height: 80vh;
+    /* border: solid;
+    width: 100%; */
+    height: 90vh;
+    contain: layout;
     border-radius: 20px;
-    background-color: peachpuff;
+    background-color: rgb(238, 170, 182);
     
     
 }
@@ -19,9 +26,15 @@
     justify-content: space-around;
     padding-top: 3%;
 }
-#anything{
+#input{
+    background-image: url('images/search.png');
+    background-size: 19px;
+    background-repeat: no-repeat;
     border-radius: 20px;
-    width: 30%;
+    width: 10%;
+    font-size: smaller;
+    padding: 2px;
+    
 }
 #signup{
     border-radius: 20px;
@@ -32,7 +45,7 @@
 #sect2{
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 10%;
 
 }
 #learn{
@@ -43,27 +56,97 @@
     display: flex;
     justify-content: space-around;
     background-color: white;
-    margin-top: 10%;
+    /* margin-top: 7%; */
+    margin-top: 4%;
 }
-
-@media all and (min-width: 200px) and (max-width:1024px){
-   body {
+#image{
+    width: 400px;
+    height: 390px;
+}
+@media screen and (min-width: 280px) and (max-width:560px){
+    body {
         margin-left: 10px;
         margin-right: 10px;
         margin-top: 10px;
         margin-bottom: 20px;
       }
-
-        #border{
-        background-color: purple;
-        height: 50vh;
-        padding-top: 6%;
-        padding-left: 4%;
-    }
+    
     #page{
         border: solid;
-        width: 20%;
-        height: 80vh;
+        width: 100%;
+        height: 100%;
+        contain: layout;
+        border-radius: 20px;
+        background-color: peachpuff;
+        
+        
+    }
+    #topnav{
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 3%;
+    }
+    #input{
+        background-image: url('images/search.png');
+        background-size: 20px;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        width: 200px;
+        font-size: smaller;
+        padding: 2px;
+    }
+    #signup{
+        border-radius: 20px;
+        width: 100px;
+        background-color: gray;
+        color: aliceblue;
+    }
+    #sect2{
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 5%;
+        height: 400px;
+    
+    }
+
+    #learn{
+        border-radius: 20px;
+        padding-left: 5px;
+        font-size: smaller;
+    }
+    #footer{
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: white;
+        margin-top: 10%;
+        font-size: smaller;
+    }
+    #image{
+        width: 1px;
+        height: 3px;
+    }
+    #search{
+        width: 10px;
+    }
+
+}
+
+@media screen and (min-width: 561px) and (max-width:800px){
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+    
+    #page{
+        border: solid;
+        width: 100%;
+        height: 100%;
+        contain: layout;
         border-radius: 20px;
         background-color: peachpuff;
         
@@ -74,38 +157,279 @@
         justify-content: space-around;
         padding-top: 3%;
     }
-    #anything{
+    #input{
+        background-image: url('images/search.png');
+        background-size: 20px;
+        background-repeat: no-repeat;
         border-radius: 20px;
-        width: 2%;
+        width: 200px;
+        font-size: smaller;
+        padding: 2px;
     }
     #signup{
         border-radius: 20px;
-        width: 4%;
+        width: 100px;
         background-color: gray;
         color: aliceblue;
+    }
+    #sect2{
+        display: block;
+        margin-top: 5%;
+        height: 400px;
+    
+    }
+
+    #learn{
+        border-radius: 20px;
+        padding-left: 5px;
+        font-size: smaller;
+    }
+    #footer{
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: space-around;
+        background-color: white;
+        margin-top: 10%;
+        font-size: smaller;
+    }
+    #image{
+        width: 1px;
+        height: 3px;
+    }
+    #search{
+        width: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media all and (min-width: 200px) and (max-width:1024px){
+   body {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+
+        #border{
+        background-color: purple;
+        height: 70vh;
+        padding-top: 6%;
+        padding-left: 4%;
+        width: 100%;
+    }
+    #page{
+        border: solid;
+        width: 90%;
+        height: 62vh;
+        border-radius: 20px;
+        background-color: peachpuff;
+        
+        
+    }
+    #topnav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 3%;
+        font-size: smaller;
+    }
+    #anything{
+        border-radius: 20px;
+        width: 30%;
+    }
+  #signup{
+        border-radius:20px;
+        width: 9%;
+        background-color: gray;
+        color: aliceblue;
+        font-size: smaller;
+    
     }
 
     #sect2{
         display: flex;
-        justify-content: space-around;
+        /* flex-wrap: wrap; */
+        /* gap: 1px;
         margin-top: 3%;
-        font-size: small;
+        font-size: smaller;
+        max-width: 50%;
+        height: auto;
     
-    }
-    #learn{
-        border-radius: 20px;
-        padding-left: 30px;
-    }
-    #footer{
-        display: flex;
-        justify-content: space-around;
-        background-color: white;
-        margin-top: 10%;
-    }
-    #image{
-        width: 200px;
-    }
-
-}
-    
-
+    } */
+     /* */ */
